@@ -1,0 +1,104 @@
+/* nomedocomando {
+         itemdocomando:variaveldoitem
+         itemdocomando:variaveldoitem2
+         itemdocomando:variaveldoitem3
+         itemdocomando:variaveldoitem4
+
+} */
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+
+
+body {
+    background-image: url('imagens/background.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  .antic-didone-regular {
+    font-family: "Antic Didone", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+#textoprincipal {width: 46%;
+    float: left;
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+#fotoprincipal {position: relative;
+    width: 46%;
+    float: right;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+h1 {
+    font-size: 40px;
+    color: #F24C3D;
+    font-family: "Antic Didone", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 4px;
+    
+    
+
+}
+
+
+
+#redes-sociais {
+    position: fixed; /* Fixa a posição da seção em relação à janela de visualização */
+    bottom: 0; /* Posiciona a seção na parte inferior da janela */
+    left: 0; /* Posiciona a seção no canto esquerdo da janela */
+    padding: 5px; /* Adiciona algum preenchimento ao redor da seção */
+    background: transparent; /* Adiciona um fundo branco para maior visibilidade */
+    border-top: 0px solid #ccc; /* Adiciona uma borda superior para separação visual */
+    z-index: 1000; /* Garante que a seção fique sobre outros conteúdos */
+    width: 100%; /* Faz o contêiner ocupar toda a largura da tela */
+    box-sizing: border-box; /* Inclui padding e border na largura total do contêiner */
+    display: flex; /* Alinha os itens no eixo horizontal */
+    justify-content: left; /* Centraliza os itens horizontalmente */
+}
+
+#redes-sociais a {
+    margin: 0 10px; /* Adiciona margem entre os ícones */
+}
+
+#redes-sociais img {
+    width: 50px; /* Define um tamanho fixo para as imagens */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+
+.button {
+    background-color: transparent; /* ou rgba(0, 0, 0, 0) */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: text-decoration 0.3s ease-in-out;
+  }
+  
+  .button:hover  {
+    text-decoration: underline;
+    background: rgba(137, 135, 135, 0.05);
+
+ 
+ 
+
+
+  
+  }
